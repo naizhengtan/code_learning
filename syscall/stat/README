@@ -1,0 +1,7 @@
+stat.c
+
+  A program to identify what type is the file.
+
+umask.c
+
+  To see what happen if umask is 0777.
