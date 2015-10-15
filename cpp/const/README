@@ -1,0 +1,33 @@
+g++ --std=c++11 -o const const.cpp
+
+(1) const reference
+
+ref = entity;
+
+ref\entity     const       non-const
+const          Good        Good
+non-const      Not Allow   Good
+
+(2) pointer to const
+
+ptr = &entity;
+
+ptr\entity      const      non-const
+const           Good       Good
+non-const       Not Allow  Good
+convert         Good       -- 
+
+(3) const pointer
+The variable pointer cannot be modified, rather than the object it points to.
+
+
+(4) constant expression
+- constexpr can be initialized by the very simple expression that can be calculated
+  at compilation time.
+- constexpr pointer means the pointer itself is const, rather than the object it points
+  to is const.
+
+
+	function
+	class
+	const
