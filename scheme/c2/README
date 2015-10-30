@@ -1,2 +1,5 @@
 2.1  rational.scm
 2.6  church.scm
+2.17 lastpair.scm
+2.18 reverse.scm
+2.23 foreach.scm
